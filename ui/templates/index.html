@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Index HTML</title>
+    <link href="{% static 'styles/index.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="base">
+      <ul>
+        <li><img src="{% static 'assets/cat1.jpeg' %}" alt="" /></li>
+        <li><img src="{% static 'assets/cat2.jpg' %}" alt="" /></li>
+        <li><img src="{% static 'assets/cat3.jpg' %}" alt="" /></li>
+        <li>Test 4</li>
+      </ul>
+      <div class="base">
+        <h1>Hello</h1>
+      </div>
+    </div>
+  </body>
+</html>
